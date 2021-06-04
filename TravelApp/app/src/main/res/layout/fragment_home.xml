@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home"
+    tools:context=".ui.home.HomeFragment"
+    app:startDestination="@+id/nav_home">
+
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/but_map"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/map"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/but_translator"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="@string/translator"
+            android:backgroundTint="@color/teal_700"
+            />
+        <Button
+            android:id="@+id/but_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="@string/quiz"
+            android:backgroundTint="@color/teal_700"
+            />
+        <Button
+            android:id="@+id/but_phrases"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/phrases"
+            />
+        <Button
+            android:id="@+id/but_policy"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/policy"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
